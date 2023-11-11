@@ -1,8 +1,4 @@
 # image-classification-yolov8  
-data_hand -- train--cls1--a1.png,b1.png,...  
-                  --cls2--a2.png,b2.png,...  
-          -- test  
-          -- valid  
 ```
 data_hand
 │   README.md
