@@ -4,11 +4,22 @@ data_hand -- train--cls1--a1.png,b1.png,...
           -- test  
           -- valid  
 ```
-|-- app
-        |-- app.js
-        |-- db.js
-        |-- directoryList.md
-        |-- index.html
+project
+│   README.md
+│   file001.txt    
+│
+└───folder1
+│   │   file011.txt
+│   │   file012.txt
+│   │
+│   └───subfolder1
+│       │   file111.txt
+│       │   file112.txt
+│       │   ...
+│   
+└───folder2
+    │   file021.txt
+    │   file022.txt
 ```
     
 # train
