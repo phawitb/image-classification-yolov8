@@ -4,22 +4,37 @@ data_hand -- train--cls1--a1.png,b1.png,...
           -- test  
           -- valid  
 ```
-project
+data_hand
 │   README.md
 │   file001.txt    
 │
-└───folder1
-│   │   file011.txt
-│   │   file012.txt
-│   │
-│   └───subfolder1
-│       │   file111.txt
-│       │   file112.txt
+└───train
+│   └───class1
+│       │   a1.png
+│       │   b1.png
 │       │   ...
-│   
-└───folder2
-    │   file021.txt
-    │   file022.txt
+│   └───class2
+│       │   a1.png
+│       │   b1.png
+│       │   ...
+└───test
+│   └───class1
+│       │   a1.png
+│       │   b1.png
+│       │   ...
+│   └───class2
+│       │   a1.png
+│       │   b1.png
+│       │   ...
+└───valid
+│   └───class1
+│       │   a1.png
+│       │   b1.png
+│       │   ...
+│   └───class2
+│       │   a1.png
+│       │   b1.png
+│       │   ...
 ```
     
 # train
