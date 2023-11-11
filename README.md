@@ -4,11 +4,12 @@ data_hand -- train--cls1--a1.png,b1.png,...
           -- test  
           -- valid  
 
-root
-+-- dir1
-    +--file1
-+-- dir2
-    +-- file2
+|-- app
+        |-- app.js
+        |-- db.js
+        |-- directoryList.md
+        |-- index.html
+
     
 # train
 yolo task=classify mode=train model=yolov8n-cls.pt data=C:\Users\phawit\Documents\image-classification\data_hand epochs=1000 imgsz=128 batch=2
