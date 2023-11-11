@@ -4,22 +4,12 @@ data_hand -- train--cls1--a1.png,b1.png,...
           -- test  
           -- valid  
 
-project
-│   README.md
-│   file001.txt    
-│
-└───folder1
-│   │   file011.txt
-│   │   file012.txt
-│   │
-│   └───subfolder1
-│       │   file111.txt
-│       │   file112.txt
-│       │   ...
-│   
-└───folder2
-    │   file021.txt
-    │   file022.txt
+root
++-- dir1
+    +--file1
++-- dir2
+    +-- file2
+    
 # train
 yolo task=classify mode=train model=yolov8n-cls.pt data=C:\Users\phawit\Documents\image-classification\data_hand epochs=1000 imgsz=128 batch=2
 yolo task=classify mode=train model=yolov8n-cls.pt data=C:\Users\phawit\Documents\image-classification\data_animal epochs=1000 imgsz=128 batch=1
