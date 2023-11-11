@@ -18,23 +18,7 @@ data_hand
 │       │   b1.png
 │       │   ...
 └───test
-│   └───class1
-│       │   a1.png
-│       │   b1.png
-│       │   ...
-│   └───class2
-│       │   a1.png
-│       │   b1.png
-│       │   ...
 └───valid
-│   └───class1
-│       │   a1.png
-│       │   b1.png
-│       │   ...
-│   └───class2
-│       │   a1.png
-│       │   b1.png
-│       │   ...
 ```
     
 # train
